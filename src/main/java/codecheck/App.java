@@ -36,7 +36,7 @@ public class App {
 		}
 
 		if (output.equals("")) {
-			output = input_num;
+			output = Integer.toString(input_num);
 		}
 
 
