@@ -26,6 +26,17 @@ public class App {
 				sb.append(strArray[i]);
 			}
 			output = sb.toString();
+		} else {
+			for (int i = 0; i < len2; i++) {
+				if (input_num % intArray[i] == 0) {
+					output = strArray[i];
+					break;
+				}
+			}
+		}
+
+		if (output.equals("")) {
+			output = input_num;
 		}
 
 
