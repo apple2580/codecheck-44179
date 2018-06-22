@@ -9,11 +9,11 @@ public class App {
 		int input = Integer.parseInt(args[2]);
 
 		if (input % 15 == 0) {
-			output = "FizzBuzz";
+			output = args[0] + args[1];
 		} else if (input % 5 == 0) {
-			output = "Buzz";
+			output = args[0];
 		} else if (input % 3 == 0) {
-			output = "Fizz";
+			output = args[1];
 		} else {
 			output = Integer.toString(input);
 		}
