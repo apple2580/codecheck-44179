@@ -9,7 +9,7 @@ public class App {
 		String output = "";
 		int len = args.length;
 		int len2 = len - 1;
-		int input_num = Integer.parseInt(args[len]);
+		int input_num = Integer.parseInt(args[len2]);
 		int[] intArray = new int[len2];
 		String[] strArray = new String[len2];
 		int remainder = 1;
