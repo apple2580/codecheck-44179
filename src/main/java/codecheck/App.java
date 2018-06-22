@@ -6,7 +6,7 @@ public class App {
 			//String output = String.format("argv[%s]: %s", i, args[i]);
 
 
-
+		String output = "";
 		int len = args.length;
 		int len2 = len - 1;
 		int input_num = Integer.parseInt(args[len]);
