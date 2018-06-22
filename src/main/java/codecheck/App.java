@@ -16,9 +16,9 @@ public class App {
 		StringBuilder sb = new StringBuilder();
 
 		for (int i = 0; i < len2; i++) {
-			intArray[i] = Integer.parseInt(args[i].substring(0,1));
+			intArray[i] = Integer.parseInt(args[i].substring(0,args[i].indexOf(":")));
 			remainder = remainder * intArray[i];
-			strArray[i] = args[i].substring(2);
+			strArray[i] = args[i].substring(args[i].indexOf(":")+1);
 		}
 
 		if (input_num % remainder == 0) {
